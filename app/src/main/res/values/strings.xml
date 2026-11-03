@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Chapter9_LoanApp</string>
+    <string name="title">Loan Payment Application</string>
+    <string name="loan_amount">Loan Amount</string>
+    <string name="interest_rate">Interest Rate</string>
+    <string name="loan_years">Loan Years</string>
+    <string name="calculate">Calculate Payment</string>
+    <string name="monthly_payment">Monthly Payment</string>
+</resources>

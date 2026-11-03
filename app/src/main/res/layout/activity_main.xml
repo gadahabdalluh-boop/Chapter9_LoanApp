@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:padding="20dp">
+
+    <TableRow android:gravity="center">
+        <TextView
+            android:text="@string/title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:padding="15dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="@string/loan_amount" android:textSize="18sp" />
+        <EditText
+            android:id="@+id/txtLoan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="Enter loan amount" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="@string/interest_rate" android:textSize="18sp" />
+        <EditText
+            android:id="@+id/txtRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="Enter interest rate" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="@string/loan_years" android:textSize="18sp" />
+        <Spinner
+            android:id="@+id/spYears"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow android:gravity="center">
+        <Button
+            android:id="@+id/btnCalculate"
+            android:text="@string/calculate"
+            android:textSize="18sp"
+            android:padding="10dp" />
+    </TableRow>
+</TableLayout>
